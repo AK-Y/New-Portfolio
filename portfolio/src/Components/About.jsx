@@ -87,7 +87,6 @@ const About = () => {
           </p>
         </div>
 
-        {/* ------------------------------------- */}
 
         <div className=" grid text-center md:grid-cols-2 px-20 gap-28 ">
           <div
@@ -100,9 +99,9 @@ const About = () => {
             <p data-aos="fade-up">
               I'm a{" "}
               <strong className="text-black opacity-60">
-                Frontend Focused Web Developer
+                Full Stack Developer
               </strong>{" "}
-              building and managing the Front-end of Websites and Web
+              building and managing the Frontend and Backend of the Websites and Web
               Applications that leads to the success of the overall product.
               Check out some of my work in the
               <strong className="text-black opacity-60">Projects</strong>{" "}
