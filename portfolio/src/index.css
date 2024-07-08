@@ -28,7 +28,7 @@
 .footer,
 .hamburger {
   background: rgb(9, 9, 14);
-  background: linear-gradient(340deg, rgba(9, 9, 14, 0) 40%, rgb(5, 54, 49) 100%);
+    background: linear-gradient(340deg, rgb(9, 9, 14) 40%, rgb(4, 63, 56) 100%);
 }
 
 body {
@@ -46,9 +46,7 @@ body {
 }
 
 .img_glow {
-  /* box-shadow: 0 0 55px rgb(10, 118, 206); */
   box-shadow: 0 0 55px rgb(1, 97, 85, 1);
-  /* box-shadow: 0 0 55px rgb(20, 21, 24); */
 }
 
 .neno-button {
