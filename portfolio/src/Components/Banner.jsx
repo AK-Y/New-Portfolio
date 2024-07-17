@@ -13,7 +13,7 @@ const Banner = () => {
     {
       text: "Full Stack Developer.",
       className:
-        "text-teal-800 dark:text-teal-800 sm:text-4xl  md:text-5xl text-2xl",
+        "dark:text-teal-600 md:text-teal-600 md:dark:text-teal-600 sm:text-4xl  md:text-5xl text-2xl",
     },
   ];
   useEffect(() => {
@@ -25,9 +25,9 @@ const Banner = () => {
         <div className=" p-5 sm:py-20 pt-52 sm:pt-52 flex flex-col justify-center lg:items-center items-center text-white">
           <h1 className="uppercase text-center sm:text-start text-4xl font-extrabold sm:text-6xl md:text-7xl  lg:text-8xl">
             hey, i'm <br />{" "}
-            <span className="text-teal-800 ">
+            <span className="md:text-teal-600 text-teal-600">
               Arun Kumar{" "}
-              <span className=" sm:text-black md:opacity-50">Yadav</span>
+              <span className=" text-teal-600 sm:text-white">Yadav</span>
             </span>
           </h1>
 
