@@ -57,7 +57,7 @@ const Navbar = () => {
             <div className=" text-2xl sm:text-3xl md:text-4xl lg:text-4xl  2xl:text-4xl">
               <span>A</span>
               <span>K</span>
-              <span className="text-teal-800 text-4xl xl:text-5xl">Y</span>
+              <span className="text-teal-600 text-4xl xl:text-5xl">Y</span>
             </div>
           </div>
 
@@ -66,7 +66,7 @@ const Navbar = () => {
               <ul className="flex gap-8  text-[18px]">
                 {navData.map((data) => (
                   <Link key={data.id} spy={true} smooth={true} to={data.link}>
-                    <li className="hover:text-teal-700 transiton  hover:scale-125 cursor-pointer duration-200 rounded-lg px-1">
+                    <li className="hover:text-teal-600 transiton  hover:scale-125 cursor-pointer duration-200 rounded-lg px-1">
                       {data.name}
                     </li>
                   </Link>
