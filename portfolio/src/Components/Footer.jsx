@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="mb-4 md:mb-0">
           <a href="#">
             {" "}
-            <h1 className="text-3xl font-semibold text-black opacity-60 py-2 uppercase">
+            <h1 className="text-3xl font-semibold text-teal-600 py-2 uppercase">
               AKY
             </h1>
           </a>
@@ -19,7 +19,7 @@ const Footer = () => {
         </div>
 
         <div>
-          <h2 className="text-[22px] font-semibold text-black opacity-60 py-2 uppercase">
+          <h2 className="text-[22px] font-semibold text-teal-600 py-2 uppercase">
             Services
           </h2>
           <ul className="text-[16px] my-4 font-normal">
@@ -31,7 +31,7 @@ const Footer = () => {
         </div>
 
         <div className="mb-4 md:mb-0">
-          <h2 className="text-[22px] font-semibold text-teal-800 py-2 uppercase">
+          <h2 className="text-[22px] font-semibold text-teal-600 py-2 uppercase">
             Contact
           </h2>
           <p className="text-[16px] font-normal my-4">
@@ -41,30 +41,30 @@ const Footer = () => {
         </div>
 
         <div>
-          <h2 className="text-[22px] font-semibold text-teal-800 py-2 uppercase">
+          <h2 className="text-[22px] font-semibold text-teal-600 py-2 uppercase">
             Follow Me
           </h2>
           <div className="flex justify-center md:justify-normal space-x-4">
             <a
-              className="text-white hover:text-teal-800 glow rounded-full transition-all duration-150 ease-in-out"
+              className="text-white hover:text-teal-600 glow rounded-full transition-all duration-150 ease-in-out"
               href=""
             >
               <FaGithub />
             </a>
             <a
-              className="text-white hover:text-teal-800 glow rounded-full   transition-all duration-150 ease-in-out"
+              className="text-white hover:text-teal-600 glow rounded-full   transition-all duration-150 ease-in-out"
               href=""
             >
               <FaLinkedin />
             </a>
             <a
-              className="text-white hover:text-teal-800 glow rounded-full transition-all duration-150 ease-in-out"
+              className="text-white hover:text-teal-600 glow rounded-full transition-all duration-150 ease-in-out"
               href=""
             >
               <FaTwitter />
             </a>
             <a
-              className="text-white hover:text-teal-800 glow rounded-full transition-all duration-150 ease-in-out"
+              className="text-white hover:text-teal-600 glow rounded-full transition-all duration-150 ease-in-out"
               href=""
             >
               <FaInstagram />
