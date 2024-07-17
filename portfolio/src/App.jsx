@@ -7,6 +7,7 @@ import Footer from "./Components/Footer";
 import { useEffect, useState } from "react";
 import { BallTriangle } from "react-loader-spinner";
 
+
 const App = () => {
   const [loader, setLoder] = useState(false);
   useEffect(() => {
@@ -19,13 +20,13 @@ const App = () => {
   return (
     <>
       {loader ? (
-        <div className="bg-teal-950 h-[100vh] flex justify-center items-center">
+        <div className="bg-gradient-to-r from-black to-teal-800 h-[100vh] flex justify-center items-center">
           {" "}
           <BallTriangle
             height={100}
             width={100}
             radius={5}
-            color="#09675C"
+            color="#0D9488"
             ariaLabel="ball-triangle-loading"
             wrapperStyle={{}}
             wrapperClass=""
