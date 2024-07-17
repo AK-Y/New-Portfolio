@@ -6,10 +6,13 @@ const Contact = () => {
     >
       <h1
         data-aos="fade-down"
-        className="text-[52px] text-center font-semibold mb-5 leading-normal uppercase text-teal-700 flex flex-col justify-center items-center"
+        className="text-[52px] text-center font-semibold mb-5 leading-normal uppercase text-teal-600 flex flex-col justify-center items-center"
       >
-      <div>  Contact <span className="text-black opacity-50">Me</span></div>
-      <span className="h-2 w-10 rounded-full bg-black opacity-50"></span>
+        <div>
+          {" "}
+          Contact <span className="text-black opacity-50">Me</span>
+        </div>
+        <span className="h-2 w-10 rounded-full bg-black opacity-50"></span>
       </h1>
       <p className="mb-10 text-center text-xl text-white font-normal">
         {" "}
@@ -21,16 +24,14 @@ const Contact = () => {
         method="POST"
         className="flex flex-col gap-2 sm:w-1/2"
       >
-        <div className="lg:flex gap-6 ">
+        <div data-aos="fade-up" className="lg:flex gap-6 ">
           <input
-            data-aos="fade-right"
             name="username"
             className="w-full lg:my3 my-4 rounded-lg bg-transparent p-4 border-2 border-teal-700 b_glow text-xl text-slate-500"
             placeholder="Enter Your Name"
             type="text"
           />
           <input
-            data-aos="fade-left"
             name="Email"
             className="w-full lg:my-3 my-4  rounded-lg bg-transparent p-4 border-2 border-teal-700 b_glow text-xl text-slate-500"
             placeholder="Enter Your Email"
