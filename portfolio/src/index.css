@@ -8,7 +8,7 @@
   background: rgb(9, 9, 14);
   background: linear-gradient(
     150deg,
-    rgba(9, 9, 14, 1) 0%,
+    rgb(9, 9, 14) 0%,
     rgba(9, 108, 96, 1) 46%,
     rgba(0, 108, 95, 1) 48%,
     rgba(9, 104, 92, 1) 50%,
@@ -17,7 +17,7 @@
 }
 
 .navbar {
-  background: rgb(9, 9, 14);
+  background: rgba(9, 9, 14, 0.979);
   background: linear-gradient(
     300deg,
     rgba(9, 9, 14, 0.151) 100%,
@@ -25,10 +25,20 @@
   );
 }
 
-.footer,
 .hamburger {
   background: rgb(9, 9, 14);
-    background: linear-gradient(340deg, rgb(9, 9, 14) 40%, rgb(4, 63, 56) 100%);
+  background: linear-gradient(340deg, rgb(9, 9, 14) 40%, rgb(4, 63, 56) 100%);
+}
+
+.footer {
+  background: rgb(9, 9, 14);
+  background: linear-gradient(
+    150deg,
+    rgba(9, 9, 14, 0.082) 50%,
+
+    rgba(9, 104, 92, 1) 50%,
+    rgba(0, 0, 0, 0) 50%
+  );
 }
 
 body {
