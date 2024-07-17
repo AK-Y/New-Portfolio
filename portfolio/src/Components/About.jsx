@@ -117,11 +117,11 @@ const About = () => {
               don't hesitate to contact me.
             </p>
 
-            <div className="mt-8">
+{/*             <div className="mt-8">
               <button className="neno-button shadow-xl hover:shadow-teal-800/50 text-white border-2 hover:bg-teal-700 bg-teal-900 border-teal-700 rounded-lg py-4 px-8 uppercase relative overflow-hidden">
                 Resume
               </button>
-            </div>
+            </div> */}
           </div>
 
           <div data-aos="fade-left" className="right-side">
