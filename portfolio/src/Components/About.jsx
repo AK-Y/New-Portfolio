@@ -1,4 +1,3 @@
-// import img from "../assets/pain.png";
 import html from "../assets/html-black.svg";
 import css from "../assets/css-black.svg";
 import js from "../assets/js-black.svg";
@@ -70,7 +69,7 @@ const About = () => {
         <div className="h-full mb-28 flex flex-col justify-center  items-center text-white">
           <h1
             data-aos="fade-right"
-            className="text-[48px] font-semibold mb-5 leading-normal uppercase text-teal-700 flex flex-col justify-center items-center"
+            className="text-[48px] font-semibold mb-5 leading-normal uppercase text-teal-600 flex flex-col justify-center items-center"
           >
             <div>
               About <span className="text-black opacity-50">Me</span>
@@ -87,7 +86,6 @@ const About = () => {
           </p>
         </div>
 
-
         <div className=" grid text-center md:grid-cols-2 px-20 gap-28 ">
           <div
             data-aos="fade-left"
@@ -101,7 +99,7 @@ const About = () => {
               <strong className="text-black opacity-60">
                 Full Stack Developer
               </strong>{" "}
-              building and managing the Frontend and Backend of the Websites and Web
+              building and managing Frontend adn Backend of the Websites and Web
               Applications that leads to the success of the overall product.
               Check out some of my work in the
               <strong className="text-black opacity-60">Projects</strong>{" "}
@@ -119,11 +117,11 @@ const About = () => {
               don't hesitate to contact me.
             </p>
 
-{/*             <div className="mt-8">
+            <div className="mt-8">
               <button className="neno-button shadow-xl hover:shadow-teal-800/50 text-white border-2 hover:bg-teal-700 bg-teal-900 border-teal-700 rounded-lg py-4 px-8 uppercase relative overflow-hidden">
                 Resume
               </button>
-            </div> */}
+            </div>
           </div>
 
           <div data-aos="fade-left" className="right-side">
