@@ -13,7 +13,7 @@ const Banner = () => {
     {
       text: "Full Stack Developer.",
       className:
-        "dark:text-teal-600 text-teal-600 sm:text-teal-600 sm:text-4xl md:text-5xl text-2xl",
+        "dark:text-teal-600 md:text-teal-600 md:dark:text-teal-600 sm:text-4xl md:text-5xl text-2xl",
     },
   ];
   useEffect(() => {
