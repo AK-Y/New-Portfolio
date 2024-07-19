@@ -8,12 +8,12 @@ const Banner = () => {
   const words = [
     {
       text: "I'm a ",
-      className: "text-xl sm:text-2xl md:text-4xl",
+      className: "text-xl sm:text-2xl md:text-4xl text-white",
     },
     {
       text: "Full Stack Developer.",
       className:
-        "dark:text-teal-600 md:text-teal-600 sm:text-4xl  md:text-5xl text-2xl",
+        "text-teal-600 sm:text-4xl md:text-5xl text-2xl",
     },
   ];
   useEffect(() => {
