@@ -99,7 +99,7 @@ const About = () => {
               <strong className="text-black opacity-60">
                 Full Stack Developer
               </strong>{" "}
-              building and managing Frontend adn Backend of the Websites and Web
+              building and managing Frontend and Backend of the Websites and Web
               Applications that leads to the success of the overall product.
               Check out some of my work in the
               <strong className="text-black opacity-60">Projects</strong>{" "}
@@ -111,10 +111,7 @@ const About = () => {
               Community.
             </p>
             <p data-aos="fade-up">
-              I'm open to <strong className="text-black opacity-60">Job</strong>{" "}
-              opportunities where I can contribute, learn and grow. If you have
-              a good opportunity that matches my skills and experience then
-              don't hesitate to contact me.
+              I am actively seeking new <strong className="text-black opacity-60">Job</strong>{" "} opportunities where I can contribute, learn, and grow. If you have a position that aligns with my skills and experience, please feel free to reach out to me.
             </p>
 
 {/*             <div className="mt-8">
