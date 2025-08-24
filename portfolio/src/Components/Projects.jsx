@@ -132,7 +132,7 @@ const Projects = () => {
               </span>
               <a
                 className="w-10 h-10 ml-10"
-                href="https://crypto-currency-converter-3du8.onrender.com/"
+                href="https://crypto-currency-converter-fxhs.onrender.com"
                 rel="noreferrer"
                 target="_blank"
               >
